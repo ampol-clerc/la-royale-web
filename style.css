@@ -1,3 +1,4 @@
+/* CSS Variables */
 :root {
   --primary-dark: #02020d;
   --red-wine: #40020d;
@@ -11,4 +12,53 @@ body {
   background-color: var(--primary-dark);
   color: var(--text-offwhite);
   font-family: var(--font-sans);
+}
+
+/* Custom Navbar */
+.custom-navbar {
+  padding: 30px 0;
+  background-color: transparent !important;
+}
+
+/* Brand Logo */
+.brand-logo {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: var(--gold-accent);
+}
+
+/* Left Menu */
+.custom-navbar .nav-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--text-offwhite);
+  opacity: 0.7;
+}
+
+/* Left Menu - Hover Effect */
+.custom-navbar .nav-link:hover {
+  opacity: 1;
+  color: var(--gold-accent);
+}
+
+/* Access Botton */
+.nav-btn {
+  border: 1px solid var(--gold-accent);
+  background-color: var(--gold-accent);
+  color: var(--red-wine);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 24px;
+  border-radius: 0;
+}
+
+/* Access Botton - Hover Effect */
+.nav-btn:hover {
+  background-color: transparent;
+  color: var(--text-offwhite);
+  border-color: var(--text-offwhite);
 }
