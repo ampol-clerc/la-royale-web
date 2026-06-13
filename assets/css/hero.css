@@ -1,0 +1,36 @@
+/* Hero Section - Base Background */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  height: 100vh;
+  width: 100%;
+
+  background: url(../images/background-hero.jpg) center center / cover no-repeat;
+  background-color: var(--primary-dark);
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(2, 2, 13, 0.9) 0%,
+    rgba(2, 2, 13, 0.5) 50%,
+    rgba(2, 2, 13, 0.95) 100%
+  );
+
+  z-index: 1;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 2;
+}
