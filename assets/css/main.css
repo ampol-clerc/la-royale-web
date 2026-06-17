@@ -13,3 +13,30 @@ body {
   color: var(--text-offwhite);
   font-family: var(--font-sans);
 }
+
+/* Custom CSS Footer */
+footer {
+  width: 100%;
+  background-color: transparent;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+
+footer p {
+  color: var(--text-offwhite);
+  opacity: 0.4;
+}
+
+footer .nav-link,
+footer ul li a {
+  color: var(--text-offwhite);
+  text-decoration: none;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+  opacity: 1;
+  color: var(--gold-accent);
+}
