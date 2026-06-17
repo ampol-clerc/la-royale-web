@@ -70,7 +70,7 @@
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 3px;
-  padding: 16px 42px;
+  padding: 16px 40px;
   border-radius: 0;
   transition: all 0.3s ease;
 }
@@ -80,4 +80,34 @@
   color: var(--text-offwhite);
   border-color: var(--text-offwhite);
   box-shadow: 0 0 20px rgba(242, 202, 80, 0.5);
+}
+
+/* Responsive Breakpoint */
+/* Tablet */
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .btn-gold {
+    padding: 14px 34px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .btn-gold {
+    padding: 12px 28px;
+    font-size: 0.8rem;
+  }
+
+  .hero-monogram {
+    max-width: 150px;
+  }
 }
