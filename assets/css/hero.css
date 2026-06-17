@@ -60,3 +60,24 @@
   color: var(--text-offwhite);
   text-shadow: 0px 4px 20px rgba(2, 2, 13, 0.6);
 }
+
+/* Primary CTA - Sucure Your Access Button */
+.btn-gold {
+  background-color: var(--gold-accent);
+  border: 1px solid var(--gold-accent);
+  color: var(--red-wine);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  padding: 16px 42px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: transparent;
+  color: var(--text-offwhite);
+  border-color: var(--text-offwhite);
+  box-shadow: 0 0 20px rgba(242, 202, 80, 0.5);
+}
